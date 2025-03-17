@@ -10,7 +10,7 @@ int main() {
     int count = 0;
 
     for (char ch : input) {
-        for (char op : operators) {
+        for (char op :  operators) {
             if (ch == op) {
                 cout << "operator" << ++count << " : " << ch << endl;
                 break;
